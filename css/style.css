@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+text-decoration: none;
+}
+
+/* Header Stylings */
+
+header {
+  background-color: #3E567C;
+  color: #d1d5f0;
+}
+
+h1 {
+  margin-top: 0;
+  padding-top: 15px;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-img {
+  width: 87%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.navbar-item {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  width: 87%;
+  background-color: #748CAB;
+  border-radius: 7px;
+  font-weight: bold;
+  color: #dfe2f5;
+}
+
+.navbar-item a {
+  color: #d1d5f0;
+}
+
+.header-paragprah {
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+  
+}
+
+
+/* Main Content */
+
+.portfolio-title {
+  width: 100%;
+  font-size: 1.2em;
+}
+
+main {
+  background-color: #dfe2f5;
+  width: 100%;
+  padding: 10px;
+}
+
+.figure-image {
+  width: 100%;
+}
+
+figcaption {
+  margin-top: 15px;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}
+
+
+/* Additional Content */
+
+.skills-title {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.skills-img {
+  width: 80%;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3E567C;
+  color: #e4e5ec;
+}
+
+footer p {
+font-size: 0.8rem;
+
+}
+
+
+.footer-nav {
+width: 90%;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+
+.footer-nav p {
+font-size: 0.7rem;
+font-weight: bold;
+}
+
+.navbar-bottom {
+  display: none;
+}
+
+/* For screens that are 768px or wider */
+
+
+@media screen and (min-width: 768px) {
+
+/* Header */
+
+.img-paragraph-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header-img {
+  order: 3;
+  width: 40%;
+  margin-right: 20px;
+}
+
+.header-paragprah {
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.8rem;
+  flex-basis: 49%;
+  margin-left: 20px;
+
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.navbar-item {
+  background-color: inherit;
+}
+
+
+/* Main Content */
+
+.main-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Poppins', serif;
+}
+
+figure {
+  flex-basis: 40%;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+figcaption {
+  font-size: 0.8rem;
+}
+
+.navbar-item {
+  display: inline-block;
+
+
+}
+
+/* Additional Content */
+
+.skills-img {
+  width: 50%;
+}
+
+/* Footer */
+
+h4 {
+  font-size: 1.0rem;
+}
+
+.footer-nav {
+  font-size: 1.2rem;
+}
+
+.footer-nav a {
+  color: #dfe2f5;
+}
+
+.link-bottom {
+  display: none;
+}
+
+.navbar-bottom {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-size: 0.7em;
+}
+
+.navbar-bottom li {
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+}
+
+/* For screens that are 1024 or wider */
+
+
+@media screen and (min-width: 1024px){
+
+/* Header */
+
+  .title-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .main-header {
+    margin-left: 20px;
+  }
+
+
+  .navbar-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 7px;
+  }
+
+  .header-paragprah {
+    line-height: 2rem;
+  }
+
+/* Main Content */
+
+  figure {
+    flex-basis: 31%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+
+
+/* Footer */
+
+  
+}
+
